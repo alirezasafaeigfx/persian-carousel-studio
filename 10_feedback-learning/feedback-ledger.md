@@ -87,6 +87,80 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 - Status: promoted
 - Notes: `8/10` is a scoped human evaluation, not Instagram performance data and does not canonicalize that post's palette/font/3D/layout surface.
 
+### FB-014 — Talking Reel requires timed speech + real silence
+
+- Evidence: explicit repeated feedback that continuous delivery sounded robotic; approved Gemini Live C01 used strict timed speech/silence blocks.
+- Class: canonical-preference / workflow-rule
+- Scope: Flow/Gemini talking-reels
+- Confidence: high
+- Rule: dialogue must be split into short timed speech blocks with explicit real silence; if a phrase finishes early the model must wait rather than start the next block early.
+- Status: promoted
+- Promoted to: `06_workflows/reels-flow-production-playbook.md` + approved prompt library
+
+### FB-015 — Dialogue overload is a negative rule
+
+- Evidence: explicit rejection of 8/10-second prompts with too much dialogue and repeated machine-gun outcomes.
+- Class: negative-rule
+- Scope: short talking-reels
+- Confidence: high
+- Rule: when dialogue only fits by accelerating delivery, shorten the script; do not solve density by increasing speaking speed.
+- Status: promoted
+
+### FB-016 — No-reference prompt must be self-contained
+
+- Evidence: Gemini requested an image after prompt text referenced a provided wardrobe/reference image; user explicitly requested no reference image.
+- Class: negative-rule / workflow-rule
+- Scope: Flow/Gemini no-reference generation
+- Confidence: high
+- Rule: when no image is intended, remove all `provided image` / `reference image` language and fully describe identity, wardrobe and scene in text.
+- Status: promoted
+
+### FB-017 — Rose hair pattern is identity-critical
+
+- Evidence: repeated explicit concern about preserving Rose identity and hair colors.
+- Class: canonical-preference
+- Scope: Rose visual-identity
+- Confidence: high
+- Rule: Rose hair lock = near-black roots + hot-magenta front/outer sections + sapphire/electric-blue underlayer; chin-length bob and black round glasses remain stable.
+- Status: promoted
+- Promoted to: approved prompt library
+
+### FB-018 — Teaser Reel should preserve the curiosity gap
+
+- Evidence: explicit user correction: the Reel should not teach the method; it should bring the viewer to Telegram for the tutorial.
+- Class: canonical-preference / funnel-rule
+- Scope: Telegram-funnel Reels
+- Confidence: high
+- Rule: teaser Reel = problem + promise + destination; technical method belongs in Telegram/PDF/caption when depth is needed.
+- Status: promoted
+
+### FB-019 — Cover headline must be understandable to general audience
+
+- Evidence: explicit rejection of visually strong cover whose headline was not meaningful to general viewers; subsequent outcome-first cover direction approved.
+- Class: canonical-preference
+- Scope: Reel covers
+- Confidence: high
+- Rule: cover must communicate the outcome without requiring prior knowledge of Flow/model names; technical context may be secondary, outcome is the dominant headline.
+- Status: promoted
+
+### FB-020 — Telegram CTA requires edit-safe pointing space
+
+- Evidence: explicit request that presenter point down while saying Telegram so channel ID can be added in edit.
+- Class: workflow-rule
+- Scope: Telegram-funnel talking-reels
+- Confidence: high
+- Rule: on `کانال تلگرام`, one index finger points clearly to lower-center; lower-center stays empty; final pose holds ~0.5–0.8s; generated username/logo/arrow are forbidden.
+- Status: promoted
+
+### FB-021 — Limited-credit mode uses one-shot prompt design
+
+- Evidence: explicit user statement that additional credits/cost for trial-and-error were not available.
+- Class: conditional-workflow-rule
+- Scope: Flow/Gemini tasks when user states credit/budget constraint
+- Confidence: high
+- Rule: provide one best production prompt, self-audit timing/reference/pronunciation before render, and do not propose speculative A/B generations unless requested.
+- Status: promoted-scoped
+
 ## Ledger Rules
 
 - broad rule without durable/repeated evidence is forbidden;
@@ -96,4 +170,4 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 
 ## Next ID
 
-`FB-014`
+`FB-022`
