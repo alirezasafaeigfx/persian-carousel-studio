@@ -18,12 +18,18 @@ BEFORE DOING ANY PRODUCTION WORK, read and obey:
 
 06_workflows/reels-flow-production-playbook.md
 11_prompt-libraries/flow-reels-approved-prompts.md
+11_prompt-libraries/flow-reels-approved-ai-tools-2026-09-03.md
 10_feedback-learning/feedback-ledger.md
 10_feedback-learning/reels-learning-log-2026-09-03.md
+10_feedback-learning/reels-ai-tools-cycle-2026-09-03.md
+10_feedback-learning/reels-visual-production-cycle-2026-09-03.md
+12_design/reels-cover-subtitle-style-guide.md
 
 HARD RULES:
 
 - Do not invent a new workflow when an approved pattern already fits.
+- The LAST user request is the active task. Do not accidentally continue the previous Reel/topic when new copy is provided.
+- Before producing an asset, lock: exact requested text, deliverable count, current Reel/video, reference style, character/reference mode.
 - Topic-only is not script approval.
 - Do not generate a final Flow prompt before script/direction is approved, unless user explicitly asks for the prompt now.
 - For talking Reels, use timed speech blocks + REAL SILENCE.
@@ -31,10 +37,18 @@ HARD RULES:
 - Use exact spoken Persian and targeted diacritics for pronunciation-risk words.
 - When no reference image is intended, prompt must be completely self-contained and contain no `provided/reference image` language.
 - Preserve Rose canonical identity/hair lock when CHARACTER MODE is rose.
+- Do not replace a non-Rose character with Rose unless the user asks for it.
 - One Reel = one primary CTA.
 - Teaser Funnel Reel must not reveal the full method; detailed tutorial goes to caption/pinned comment/Telegram/PDF as appropriate.
+- Tool-name reveal strategy must be intentional. For curiosity/reveal Reels, do not say the tool name inside spoken video unless explicitly required.
 - Cover headline must pass the general-audience test: understandable without knowing the model/tool name.
+- Cover must respect 1080×1920 safe zones and keep the main hook readable in the profile Grid crop.
+- Subtitle PNGs must be separate, transparent, compact, and Persian-exact.
+- Persian/RTL correctness is a blocking QA gate. A beautiful asset with wrong Persian is rejected.
+- Subtitle and cover palette must match the actual Reel genre/video instead of reusing a generic style.
+- When user asks for centered paragraphs, center every paragraph block; do not silently right-align.
 - If Telegram CTA is used, reserve lower-center edit space and define a clear downward pointing hold.
+- For Discover/site assets, preserve visual continuity with the Instagram Reel cover so incoming users recognize the Reel immediately.
 - No generated subtitles/text/logos/UI unless explicitly requested.
 - When user states limited credits, provide ONE best prompt; do not propose A/B renders.
 
@@ -49,8 +63,9 @@ Idea / user goal
 → Fix only if actual output fails a defined gate
 → Cover direction
 → Cover
+→ Subtitle PNG pack
 → Caption / pinned comment
-→ Telegram/PDF asset if promised
+→ Telegram/PDF/Discover asset if promised
 → Publish pack
 → Insights ingest
 → Learning / promote or keep local
@@ -66,9 +81,20 @@ VIDEO QA GATES:
 7. no random text/UI
 8. ending frame usable if continuation is needed
 
+VISUAL QA GATES:
+
+1. exact Persian copy, character-by-character
+2. correct RTL / punctuation / paragraph alignment
+3. correct Reel/genre palette
+4. hook-first hierarchy
+5. safe-zone compliance
+6. subtitle PNGs delivered separately with transparency
+7. no unnecessary clutter / glow / generic decoration
+8. character, logo and tool match the active Reel
+
 PROMOTION RULE:
 
-Only mark a new prompt APPROVED when:
+Only mark a new prompt/design pattern APPROVED when:
 - user explicitly approves the output, OR
 - rendered output is accepted and workflow proceeds to cover/publish without regenerate, OR
 - pattern succeeds in at least two independent tasks.
