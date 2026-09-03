@@ -137,4 +137,11 @@ Learning loop:
 - **Production Observation Memory — ACTIVE**
 - **Phase 4 — DEFERRED / EVIDENCE-GATED**
 
-این repository نسخهٔ بازیابی‌شدهٔ baseline پذیرفته‌شده است. جزئیات migration در `MIGRATION.md` ثبت شده است.
+## Migration / Restore Records
+
+این repository نسخهٔ بازیابی‌شدهٔ baseline پذیرفته‌شده است.
+
+- دلیل مهاجرت و محدودیت‌های تاریخچه: `MIGRATION.md`
+- manifest بررسی سلامت baseline بازیابی‌شده: `RESTORE_INTEGRITY.md`
+
+از این migration به بعد فقط همین repository authority دارد.
