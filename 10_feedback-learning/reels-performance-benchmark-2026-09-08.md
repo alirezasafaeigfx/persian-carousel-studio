@@ -20,6 +20,18 @@ Purpose: update the growth baseline before selecting the next Reel. The next pro
 
 Interpretation: Reels are the primary discovery engine and the account is already reaching mostly non-followers.
 
+Additional Instagram monthly recap evidence supplied later on 2026-09-08:
+
+- August recap: ~135K views
+- 82% of August views from non-followers
+- ~1.9K followers gained in the recap
+- Aug 5–Sep 3 dashboard: ~176K views and ~2.1K new followers
+- Instagram explicitly highlighted the chat + image utility Reel as the month’s strongest attention/follower piece
+- Instagram recommended capturing attention in the first 3 seconds
+- Account-specific recent high-activity window: Friday, Saturday and Sunday, 9 PM–12 AM
+
+Treat the posting window as a testable account signal, not a universal algorithm rule.
+
 ---
 
 ## 2. Updated Reel benchmarks
@@ -136,6 +148,54 @@ Derived rates:
 
 Key signal: very strong comment activity did not translate into distribution. Comment CTA alone is not sufficient for scale.
 
+### Reel F — Duck.ai / free + no-signup multi-model angle
+
+This Reel had already been published before it was accidentally proposed as the next candidate. The new screenshots correct that history gap.
+
+- Views: 3,643
+- Viewers: 2,559
+- Average watch time: 6s
+- Follows: 35
+- Likes: 54
+- Comments: 187
+- Reposts: 4
+- Shares: 131
+- Saves: 71
+- Profile visits: 29
+- Non-followers: 73.6%
+- Followers: 26.4%
+
+Instagram diagnostic rates shown in-product:
+
+- Skip rate: 58.9% — higher than typical
+- Share rate: 5.0% — higher than typical
+- Like rate: 2.0% — lower than typical
+- Save rate: 2.7% — lower than typical
+- Repost rate: 0.2% — lower than typical
+- Comment rate: 7.0% — lower than typical
+
+Top sources:
+
+- Reels tab: 52.2%
+- Explore: 18.1%
+- Stories: 13.3%
+- Feed: 11.2%
+- Profile: 3.0%
+- Search: 0.1%
+
+Derived:
+
+- Follow conversion / views: ~0.96%
+- Follows per 1K views: ~9.6
+
+Retention diagnosis:
+
+The curve drops sharply in the opening seconds: roughly from 100% at start to around the mid-50% range by about 2 seconds and near the low-40% range shortly after. The remainder then declines more gradually toward the end.
+
+Key signal: the value proposition itself had send-worthiness (share rate was strong), but the first seconds failed to hold enough viewers. Distribution stayed below the account’s stronger discovery benchmarks, with only 73.6% non-follower reach. This is a clean example of **good shareability after interest + weak hook hold before interest**.
+
+Do not repeat Duck.ai as a new-topic candidate unless there is a materially new product development and a distinct hypothesis.
+
 ---
 
 ## 3. Promoted learnings
@@ -144,9 +204,7 @@ Key signal: very strong comment activity did not translate into distribution. Co
 
 At 100K views, only a 1.0% follow conversion is required to produce 1K follows.
 
-Four of the five current benchmark Reels are already between ~1.76% and ~2.07% follow conversion, and even the weakest observed Reel is ~1.35%.
-
-Therefore the main optimization target for the next Reel is distribution/reach, while protecting existing follow conversion.
+Several successful Reels are already well above that threshold. Therefore the main optimization target is distribution/reach while protecting follow conversion.
 
 ### L-02 — High watch time is necessary but not sufficient
 
@@ -156,13 +214,13 @@ Do not optimize the next Reel around retention alone.
 
 ### L-03 — High comments are necessary but not sufficient
 
-DeepSeek achieved ~8.2% comments/views but only 7,210 views.
+DeepSeek achieved very high comment activity but only 7,210 views.
 
 A one-word CTA remains useful, but the claim itself must create share/save behavior.
 
 ### L-04 — Best growth mechanism is a hybrid of Reel A + Reel B
 
-Reel A provides the best follow conversion:
+Reel A provides the best follow conversion mechanism:
 
 `cost / free / money-saving hook`
 
@@ -172,50 +230,39 @@ Reel B provides the strongest distribution intent:
 
 Next hypothesis should combine both rather than copying either one directly.
 
-### L-05 — New 100K hypothesis
+### L-05 — Duck.ai adds a new constraint: hook hold can overpower share rate
 
-Use a benefit stack that is understandable in under one second:
+Duck.ai produced a 5.0% share rate, yet reach stalled around 3.6K views because the skip rate was 58.9% and the retention curve collapsed in the opening seconds.
 
-`no subscription cost + no signup friction + multiple useful AI models + privacy`
+Therefore:
 
-This has greater intrinsic send-worthiness than a free-only claim and greater follow intent than a generic utility-only claim.
+`high shareability cannot rescue a weak 0–3s hold quickly enough`
+
+For the next 100K attempt, optimize in this order:
+
+1. stop the swipe immediately;
+2. reveal one concrete high-value use case;
+3. create send/save intent;
+4. ask for one CTA only at the end.
+
+### L-06 — Creator-native visual baseline remains preferred
+
+Avoid corporate/executive/presenter energy when the content can be delivered as a natural creator discovery. Keep the successful organic talking-head baseline unless the concept itself needs a different visual mechanic.
 
 ---
 
-## 4. Next Reel candidate — Duck.ai
+## 4. Topic exclusion / history guard
 
-Evidence should be reverified immediately before publication because model availability and free limits are mutable.
+Already used topics that must not be accidentally proposed as a fresh Reel without a materially new angle:
 
-Core promise direction:
+- Duck.ai
+- Qwen
+- DeepSeek
+- Copilot
+- all-in-one AI app / AI Hub
+- chat + image utility baseline
 
-- free access to multiple popular AI models;
-- no account required for the free experience;
-- private/anonymized chat positioning;
-- tool name hidden from spoken Reel to preserve curiosity gap.
-
-Recommended hook direction:
-
-`پول اشتراک نده؛ حتی ثبت‌نامم نکن!`
-
-Recommended spoken architecture:
-
-```text
-«پول اشتراک نده؛ حتی ثبت‌نامم نکن!»
-
-[natural conversational beat]
-
-«چند هوش مصنوعی معروف، رایگان و خصوصی، توی یه جا.»
-
-[natural conversational beat]
-
-«می‌خوایش؟ خصوصی رو کامنت کن.»
-```
-
-Primary CTA keyword:
-
-`خصوصی`
-
-Do not render until the user approves Direction + Script.
+Before proposing the next tool, check existing Reel history first.
 
 ---
 
@@ -224,17 +271,18 @@ Do not render until the user approves Direction + Script.
 These are internal optimization targets, not guarantees:
 
 - Views target: 100K+
-- Follow conversion: >= 1.5%
+- Follow conversion: >= 1.5% preferred; 1.0% is sufficient for 1K follows at 100K views
 - Follows target: >= 1K
 - Share rate target: >= 1.8%
 - Save rate target: >= 2.5%
 - Comment rate: >= 4%
 - Avg watch target for a ~10s Reel: >= 7s
 - Non-follower reach: protect discovery-heavy distribution
+- Skip rate: materially improve versus Duck.ai’s 58.9%
 
-Primary experiment variable:
+Primary experiment variable for the next Reel:
 
-`Hook/value proposition` — combine free/cost avoidance with no-signup + privacy + multi-model utility.
+`0–3s Hook + immediate concrete utility`
 
 Keep production variables stable where already proven:
 
@@ -243,7 +291,7 @@ Keep production variables stable where already proven:
 - semantic conversational beats;
 - natural speech, not fast speech;
 - one CTA;
-- tool name hidden in spoken video;
+- tool name hidden in spoken video when curiosity benefits;
 - clean raw camera footage;
 - no generated text/UI;
 - cover created only after final render passes QA.
