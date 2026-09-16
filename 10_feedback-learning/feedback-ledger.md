@@ -161,6 +161,46 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 - Rule: provide one best production prompt, self-audit timing/reference/pronunciation before render, and do not propose speculative A/B generations unless requested.
 - Status: promoted-scoped
 
+### FB-022 — Closed-mouth start frame prevents pre-hook vocal filler
+
+- Evidence: Vibe by Mistral V2 generated unwanted pre-hook vocalization sounding like `هم / هه` when the start image had an open mouth; the accepted final render used a closed-mouth happy start frame plus initial silence.
+- Class: workflow-rule / corrective-rule
+- Scope: image-to-video talking-reels with generated speech
+- Confidence: high
+- Rule: when the first spoken word must begin cleanly, prefer a closed-mouth start frame, reserve a short initial silent visual beat, and explicitly forbid filler vocalizations before the first word.
+- Status: promoted
+- Provenance: `10_feedback-learning/reels-vibe-mistral-v2-cycle-2026-09-17.md`
+
+### FB-023 — Visible phone should be treated as a locked anchor prop
+
+- Evidence: prior talking-video generations caused phone disappearance/repositioning; the accepted Vibe V2 render used a permanent prop lock with the phone held in one hand and gestures restricted to the free hand.
+- Class: workflow-rule
+- Scope: image-to-video Reels with persistent handheld props
+- Confidence: high
+- Rule: for a hero prop that must persist, lock the same object to the same hand for the full clip, keep that arm relatively stable, use the free hand for gestures, and reduce motion if continuity is threatened.
+- Status: promoted
+- Provenance: `10_feedback-learning/reels-vibe-mistral-v2-cycle-2026-09-17.md`
+
+### FB-024 — Multi-panel sheets guide planning; final render may need one clean start frame
+
+- Evidence: Vibe V2 successfully used a Character Consistency Sheet and 6-frame Storyboard Sheet to define identity/performance, while the accepted final Flow render used a single clean 9:16 start frame to avoid ambiguous multi-pose visual guidance.
+- Class: workflow-rule
+- Scope: Flow/Veo talking-reels using character/storyboard references
+- Confidence: high
+- Rule: use Character/Storyboard sheets to lock creative decisions, but for a single continuous talking Reel prefer one clean start frame as the direct render reference when multi-panel sheets would present multiple simultaneous poses/copies of the character.
+- Status: promoted-scoped
+- Provenance: `10_feedback-learning/reels-vibe-mistral-v2-cycle-2026-09-17.md`
+
+### FB-025 — Specify good-news excitement, not generic surprise
+
+- Evidence: Vibe V2 initially produced a shocked/robotic performance despite generic excitement instructions; the accepted result followed explicit `GOOD-NEWS EXCITEMENT` direction with positive facial/body cues and a defined emotional meaning for the hook.
+- Class: performance-direction rule
+- Scope: talking-reels announcing free/new availability or other positive news
+- Confidence: high
+- Rule: when announcing positive news, explicitly define the emotional intent as joyful good-news excitement and forbid shocked/confused/alarmed delivery; tie facial expression, body language and vocal intent to that meaning.
+- Status: promoted
+- Provenance: `10_feedback-learning/reels-vibe-mistral-v2-cycle-2026-09-17.md`
+
 ## Ledger Rules
 
 - broad rule without durable/repeated evidence is forbidden;
@@ -170,4 +210,4 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 
 ## Next ID
 
-`FB-022`
+`FB-026`
