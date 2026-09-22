@@ -140,7 +140,7 @@ Recap the strongest Story signal from the week, show one useful takeaway, and as
 
 ## 7. Current executable sequence — record-Story follow-up
 
-Context: the Story attached to the current `+18 / free AI` Reel reached **2,154 Story viewers** in the screenshot supplied on 2026-09-22. The owner reported this as the highest Story view count seen on the page so far.
+Context: the Story attached to the current `+18 / free AI` Reel reached **3,350 views from 2,349 unique viewers** in the detailed Insights supplied on 2026-09-22. The owner reported this as the highest Story performance seen on the page so far.
 
 This is evidence for a follow-up test, not a permanent `+18` rule.
 
@@ -152,7 +152,7 @@ Text:
 
 Secondary line:
 
-`۲۱۵۴ نفر دیدنش.`
+`۳۳۵۰ بازدید؛ ۲۳۴۹ بیننده.`
 
 Job: proof + curiosity.
 
@@ -197,12 +197,46 @@ Job: turn the high-reach Story into research for the next content cycle.
 
 ### Story evidence
 
-Observed from owner-supplied Insights screenshot:
+Observed from the full owner-supplied Story Insights screenshots:
 
-- Story viewers: **2,154**
-- Reshares: **1**
-- direct Story replies were present; the screenshot did not expose the full reply count
-- owner report: this was the highest Story view count seen on the page so far
+- Views: **3,350**
+- Unique viewers: **2,349**
+- Interactions: **306**
+  - Likes: **65**
+  - Replies: **240**
+  - Shares: **1**
+- Profile activity: **72**
+  - Profile visits: **60**
+  - External link taps: **10**
+  - Follows: **2**
+- Navigation actions: **2,527**
+  - Forward: **1,179**
+  - Exited: **759**
+  - Next story: **516**
+  - Back: **73**
+- View audience mix:
+  - Followers: **95.2%**
+  - Non-followers: **4.8%**
+- Interaction audience mix:
+  - Followers: **95.8%**
+  - Non-followers: **4.2%**
+- Gender:
+  - Men: **86.7%**
+  - Women: **13.3%**
+- Reshares shown in the earlier viewer panel: **1**
+- owner report: this is the highest Story performance seen on the page so far
+
+Derived descriptive ratios, using unique viewers as the denominator where appropriate:
+
+- Views per unique viewer: **~1.43**
+- Interaction density: **~13.0%**
+- Reply density: **~10.2%**
+- Like density: **~2.8%**
+- Profile-visit density: **~2.6%**
+- External-link-tap density: **~0.43%**
+- Follow density: **~0.09%**
+
+These are simple descriptive ratios calculated from the supplied counts, not Instagram-defined rate metrics.
 
 ### Reel evidence at the same latest checkpoint
 
@@ -244,11 +278,15 @@ Audience mix:
 
 The current evidence supports these working hypotheses:
 
-1. **Stories can be a strong follower-reach and conversation engine for ASDEV.** The 2,154-view Story is meaningful page-level evidence, especially because the owner reports it as a record.
-2. **Story success and Reel discovery are different jobs.** At the latest checkpoint, Stories supplied 68.3% of Reel views while Reels tab + Explore supplied a much smaller share. Therefore Story-driven views must not be treated as proof that the Reel itself is winning recommendation distribution.
-3. **Story boosting can contaminate Reel experiments.** If the objective is to learn whether a Trial Reel can travel to non-followers organically, capture a clean pre-Story baseline first.
-4. **The `18` curiosity mechanic is a candidate Story hook, not a permanent identity.** It produced strong curiosity in this cycle, but one success is insufficient to make it a default. Use it sparingly and pair it with a fast, honest utility payoff.
-5. **Story replies are valuable research data.** When a high-reach Story generates direct replies, the next Story should convert that attention into one useful audience-demand question rather than immediately stacking another promotional CTA.
+1. **Stories can be a strong follower-reactivation and conversation engine for ASDEV.** The Story produced 3,350 views, 2,349 unique viewers and 240 replies. The owner reports it as the page's strongest Story result so far.
+2. **This specific Story was primarily a follower event, not a discovery event.** 95.2% of views came from followers and only 4.8% from non-followers. Therefore its record performance should not be interpreted as broad new-audience reach.
+3. **The dominant success signal was conversation.** 240 replies represent roughly 10.2 replies per 100 unique viewers, while shares were only 1. The sequence should be treated as a reply/conversation winner rather than a shareability winner.
+4. **Story success and Reel discovery are different jobs.** At the latest Reel checkpoint, Stories supplied 68.3% of Reel views while Reels tab + Explore supplied a much smaller share. Story-driven views must not be treated as proof that the Reel itself is winning recommendation distribution.
+5. **Story boosting can contaminate Reel experiments.** If the objective is to learn whether a Trial Reel can travel to non-followers organically, capture a clean pre-Story baseline first.
+6. **The `18` curiosity mechanic remains a scoped candidate, not a permanent identity.** It clearly triggered replies in this cycle, but the audience was also 86.7% male. Without a baseline gender split we cannot attribute that skew to the hook, but it is a reason to monitor audience quality before repeating the mechanic.
+7. **Navigation shows both strong action and substantial drop-off.** Forward, exit and next-story actions were materially higher than back taps. Because navigation actions can occur multiple times per viewer, use the raw counts for comparison across future Stories rather than pretending they are unique-user rates.
+8. **Profile intent existed but conversion was limited.** The Story produced 60 profile visits, 10 external link taps and 2 follows. For this sequence, replies were a much stronger downstream behavior than profile/follow conversion.
+9. **The next Story should harvest demand, not repeat the same bait.** Convert the unusually high reply volume into one useful audience-demand question before testing another curiosity hook.
 
 ### Story-to-Reel Bridge Protocol V2
 
