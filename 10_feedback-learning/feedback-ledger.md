@@ -201,6 +201,16 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 - Status: promoted
 - Provenance: `10_feedback-learning/reels-vibe-mistral-v2-cycle-2026-09-17.md`
 
+### FB-026 — Telegram long-form education should be file-first
+
+- Evidence: explicit user rejection of a channel experience dominated by long tutorial messages; user requested rebuilding the AI-income education from zero with visual slides + a complete PDF + short supporting copy.
+- Class: canonical-preference / content-architecture rule
+- Scope: Telegram education / Reel-to-Telegram learning funnels
+- Confidence: high
+- Rule: when educational depth would require many dense Telegram messages, use concise visual slides for orientation, a downloadable structured PDF for depth, and keep channel copy limited to context/navigation/CTA.
+- Status: promoted
+- Provenance: `10_feedback-learning/telegram-ai-income-file-course-cycle-2026-09-22.md`
+
 ## Ledger Rules
 
 - broad rule without durable/repeated evidence is forbidden;
@@ -210,4 +220,4 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 
 ## Next ID
 
-`FB-026`
+`FB-027`
