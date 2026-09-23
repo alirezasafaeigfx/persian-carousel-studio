@@ -211,6 +211,36 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 - Status: promoted
 - Provenance: `10_feedback-learning/telegram-ai-income-file-course-cycle-2026-09-22.md`
 
+### FB-027 — Freeze approved dialogue before visual-only iteration
+
+- Evidence: in the Secret Prompts spy-thriller cycle, the user explicitly approved the Persian wording/pronunciation and required all later changes to affect only scene/action.
+- Class: workflow-rule
+- Scope: Flow/Veo talking-reels after dialogue approval
+- Confidence: high
+- Rule: once exact dialogue and pronunciation are accepted, treat the spoken script as immutable during visual/action refinement unless the user explicitly reopens copy.
+- Status: promoted
+- Provenance: `10_feedback-learning/reels-secret-prompts-cycle-2026-09-23.md`
+
+### FB-028 — Action VFX must obey one persistent line-of-fire topology
+
+- Evidence: multiple Secret Prompts renders produced illogical left/right wall hits or front-facing impacts when the shooter was intended to remain behind Rose.
+- Class: workflow-rule / spatial-continuity rule
+- Scope: single-take cinematic action Reels
+- Confidence: high
+- Rule: define one persistent threat origin and line-of-fire before bullet-impact choreography; forbid decorative crossfire. If spatial logic still breaks, remove nonessential visible impacts rather than adding more constraints.
+- Status: promoted
+- Provenance: `10_feedback-learning/reels-secret-prompts-cycle-2026-09-23.md`
+
+### FB-029 — Hidden-surface impacts should be conveyed indirectly
+
+- Evidence: the safe-room ending failed when exterior bullets were rendered as visible marks/sparks on the interior face of a closed steel door.
+- Class: physical-realism rule
+- Scope: cinematic Reels with occluded impact surfaces
+- Confidence: high
+- Rule: when the true impact point is not visible from the active camera, communicate it through sound, transmitted vibration and secondary physical response instead of inventing visible VFX on the camera-facing surface.
+- Status: promoted
+- Provenance: `10_feedback-learning/reels-secret-prompts-cycle-2026-09-23.md`
+
 ## Ledger Rules
 
 - broad rule without durable/repeated evidence is forbidden;
@@ -220,4 +250,4 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 
 ## Next ID
 
-`FB-027`
+`FB-030`
