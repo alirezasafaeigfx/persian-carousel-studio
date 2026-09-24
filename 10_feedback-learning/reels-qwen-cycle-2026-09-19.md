@@ -231,3 +231,14 @@ Track especially:
 - DM button clicks if Novinhub exposes them
 
 Do not classify the pivot as a winner until post-publication evidence exists.
+
+---
+
+## 10. Operational supersession — 2026-09-24
+
+The current post-publication workflow, Trial Insights, web-first DM funnel and Story Revival rules are recorded in:
+
+10_feedback-learning/reels-qwen-trial-growth-story-revival-2026-09-24.md
+
+That report supersedes the earlier Google Play destination and product-name-in-DM instructions in sections 6–8 of this file.
+
