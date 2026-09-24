@@ -211,6 +211,36 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 - Status: promoted
 - Provenance: `10_feedback-learning/telegram-ai-income-file-course-cycle-2026-09-22.md`
 
+### FB-030 — Support Stories use realistic Lia + simple RTL Persian
+
+- Evidence: explicit rejection of artificial-looking Story drafts and explicit request to use Lia, make the design professional/non-AI-looking, enforce correct Persian spelling/right-to-left layout, and keep every sentence simple for a general audience.
+- Class: canonical-preference / story-design rule
+- Scope: ASDEV support/education Stories
+- Confidence: high
+- Rule: use Lia for this class of support Story, favor realistic editorial/creator-office photography over overt AI-gloss, keep Persian correctly RTL with clean spelling, use large readable type, and write in short general-audience language.
+- Status: promoted
+- Provenance: 10_feedback-learning/reels-qwen-trial-growth-story-revival-2026-09-24.md
+
+### FB-028 — Trial Reel Story sequence must respect publication state
+
+- Evidence: user corrected a Story that said «ریلز جدید رو ببین» while the Reel was still in Trial and not on the public profile.
+- Class: workflow-rule / negative-rule
+- Scope: Instagram Trial Reel revival
+- Confidence: high
+- Rule: while a Reel is Trial-only, do not describe it as a new public Reel; first Story should set context and tell the user to send the CTA keyword under the next Story, then the next Story should share the Trial Reel itself.
+- Status: promoted-scoped
+- Provenance: 10_feedback-learning/reels-qwen-trial-growth-story-revival-2026-09-24.md
+
+### FB-029 — Post-access support Story asks for success + problems
+
+- Evidence: explicit request for a Story asking whether viewers entered/used the tool and inviting them to report any problem, using a real product screenshot.
+- Class: funnel-support rule
+- Scope: post-DM / post-link Instagram Stories
+- Confidence: high
+- Rule: after sending a tool/resource, follow with a simple support Story that asks whether users got in, invites feedback from successful users, and invites problem reports via reply; use real product UI evidence when available.
+- Status: promoted-scoped
+- Provenance: 10_feedback-learning/reels-qwen-trial-growth-story-revival-2026-09-24.md
+
 ## Ledger Rules
 
 - broad rule without durable/repeated evidence is forbidden;
@@ -220,4 +250,4 @@ Restored durable/scoped feedback evidence. This ledger preserves high-confidence
 
 ## Next ID
 
-`FB-027`
+`FB-030`
